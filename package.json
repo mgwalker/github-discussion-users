@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  },
+  "license": "ISC",
+  "prettier": {},
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
