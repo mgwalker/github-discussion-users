@@ -16,5 +16,16 @@ It'll first go through all the pages of discussions making a list of discussion 
   This is a map of all users that have participated in discussions, sorted by the total number of comments they've contributed. The keys
 
   ```json
-  {}
+  {
+    "username": GitHub username,
+    "url": link to their profile,
+    "commentCount": total number of comments,
+    "comments": [
+      // list of comments, sorted by date, looks like this:
+      {
+        "link": url to the specific comment,
+        "timestamp": ISO-8601 timestamp of the comment
+      }
+    ]
+  }
   ```
